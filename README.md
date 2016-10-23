@@ -25,16 +25,27 @@ We've only implemented 1.
 
 Morseshim is written in python3.
 
-The requirements.txt files lists the python modules we use, autogui
+The requirements.txt files lists the python modules we use: autogui
 and pynput. You can try installing from the requirements file, but on
 Ubuntu I had to install a few extra packages. See the instalation
 instructions for autogui on their page:
 
 <https://pyautogui.readthedocs.io/en/latest/>
 
+## TODO
+
 The pynput module allows reading and writing keyboard and mouse events
 as well. It may be possible to make this program with only pyinput. I
 leave the exercise to the reader.
+
+I think moving to
+[PyUserInput](https://github.com/PyUserInput/PyUserInput) will allow
+capturing of mouse click events, and sending keyboard and mouse
+inputs.
+
+Another alternative for linux is the
+[evdev](http://python-evdev.readthedocs.io/en/latest/) framework for
+input devices.
 
 ## Running
 
