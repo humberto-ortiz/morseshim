@@ -6,7 +6,7 @@ the challenge: Control the keyboard and mouse vía Morse Code.
 
 ## Morse Code 
 
-![Morse code chart](International_Morse_Code.svg)
+![Morse code chart](500px-International_Morse_Code.svg.png)
 
 By Rhey T. Snodgrass & Victor F. Camp, 1922 - Image:Intcode.png and
 Image:International Morse Code.PNG, Public Domain,
@@ -16,10 +16,10 @@ http://morsecode.scphillips.com/morse.html
 
 ##  Input options
 
-#. left click is dot, right click is dash.
-#. short press is dot, long press is dash.
+1. left click is dot, right click is dash.
+2. short press is dot, long press is dash.
 
-We've only implemented #1.
+We've only implemented 1.
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ leave the exercise to the reader.
 
 ## Running
 
-To run the program run python3 morseshim.py in a terminal.
+To run the program run `python3 morseshim.py` in a terminal.
 
 The program will listen to left and right clicks, and translate them
 to dots and dashes. To end a letter, long press the last morse
