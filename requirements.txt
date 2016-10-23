@@ -1,0 +1,2 @@
+PyAutoGUI==0.9.33
+pynput==1.1.3
