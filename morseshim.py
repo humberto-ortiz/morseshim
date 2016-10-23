@@ -87,6 +87,14 @@ def on_click(x, y, button, pressed):
             if msg in esrom:
 
                 pyautogui.typewrite(esrom[msg])
+                if esrom[msg]=="w":
+                    pyautogui.moveRel(0, -50, duration=0.5)
+                if esrom[msg]=="a":
+                    pyautogui.moveRel(-50, 0, duration=0.5)
+                if esrom[msg]=="s":
+                    pyautogui.moveRel(0, 50, duration=0.5)
+                if esrom[msg]=="d":
+                    pyautogui.moveRel(50, 0, duration=0.5)
 
             msg = ""
             
